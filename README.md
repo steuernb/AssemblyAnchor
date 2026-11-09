@@ -16,7 +16,7 @@ All contigs are then re-orientated and contigs with the same chromosome are conc
 ## Step1 create blastable database of your assembly
 
 ```
-makeblastdb -in <myassembly.fasta> -db nucl
+makeblastdb -in assembly.fasta -db nucl
 ```
 
 ## Step 2 prepare reference gene set
