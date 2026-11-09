@@ -9,7 +9,7 @@ All contigs are then re-orientated and contigs with the same chromosome are conc
 ## Prerequisites
 * blast+ [https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html]
 * Java Runtime Environment 1.8 or higher [https://www.java.com/en/download/]
-
+* Download AnchorAssembly.jar from this repository
 
 # Usage
 
@@ -51,5 +51,5 @@ AssemblyAnchor.jar has three mandatory arguments and one optional: The blast out
 Example
 
 ```
-java -jar AssemblyAnchor.jar -i blast.out.xml -f assembly.fasta -o assembly.anchored.fasta -m markers.txt
+java -jar AnchorAssembly.jar -i blast.out.xml -f assembly.fasta -o assembly.anchored.fasta -m markers.txt
 ```
